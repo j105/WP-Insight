@@ -89,5 +89,5 @@ if ( !defined('ABSPATH') )
 require_once(ABSPATH . 'wp-settings.php');
 
 /** AWS **/
-define( 'AWS_ACCESS_KEY_ID', $_ENV['AWS_ACCESS_KEY'] );
-define( 'AWS_SECRET_ACCESS_KEY', $_ENV['AWS_SECRET_ACCESS_KEY'] );
+define( 'DBI_AWS_ACCESS_KEY_ID', $_ENV['AWS_ACCESS_KEY'] );
+define( 'DBI_AWS_SECRET_ACCESS_KEY', $_ENV['AWS_SECRET_ACCESS_KEY'] );
