@@ -8,3 +8,4 @@ touch public.built
 mv public.built tmp/public.old && mv tmp/public.building public.built
 rm -rf tmp/public.old
 cp -R public/* public.built
+cp public/.htaccess public.built/.htaccess
