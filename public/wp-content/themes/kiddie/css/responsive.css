@@ -1,0 +1,287 @@
+/* Extra Small Devices */
+@media only screen and (max-width: 480px) {
+
+    .ztl-widget-staff-container .owl-buttons {
+        display: none;
+    }
+
+    .ztl-staff-carousel-wrapper .owl-dots {
+        display: none !important;
+    }
+
+    .ztl-widget-title, .ztl-heading,
+    .ztl-action-content-box,
+    .custom-header-title,
+    .page-title .entry-title,
+    h1{
+        font-size:36px;
+    }
+    .ztl-widget-circle-title{
+        font-size:24px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+    #logo img {
+        width: 70%;
+    }
+
+    #logo {
+        line-height: 60px;
+    }
+
+    #logo {
+        height: 60px;
+    }
+
+    .main-navigation ul {
+        height: auto !important;
+        padding-bottom: 1rem;
+        float: left;
+        width: 100%;
+    }
+
+    .ztl-no-padding{
+        padding:0px !important;
+    }
+
+    .main-navigation ul li:hover > ul,
+    .main-navigation ul ul li:hover > ul {
+        left: 0px;
+    }
+
+    .main-navigation ul ul {
+        width: 100%;
+        position: relative;
+        left: 0px;
+        padding: 0 0 0 24px;
+        box-shadow: none;
+    }
+
+    .main-navigation ul ul li a {
+        padding: 10px 12px;
+        line-height: 24px;
+        width: 100%;
+    }
+
+    .main-navigation ul li {
+        width: 100%;
+        border-bottom: 1px solid #f2f2f2;
+    }
+
+    .main-navigation ul ul li:first-child {
+        border-top: 1px solid #f2f2f2;
+    }
+
+    .main-navigation ul li:last-child {
+        border-bottom: none;
+    }
+
+    .main-navigation li a {
+        padding: 10px !important;
+        line-height: 24px;
+    }
+
+    .main-navigation li {
+        float: left;
+        position: relative;
+    }
+
+    .main-navigation ul ul li a {
+        margin: 0px;
+    }
+
+    #menu-toggle{
+        cursor: pointer !important;
+    }
+
+    #menu-toggle,
+    .main-navigation .toggled .nav-menu {
+        display: inline-block;
+    }
+
+    #site-navigation {
+        width: 100%;
+    }
+
+    .main-navigation .fa::before {
+        display: none;
+    }
+
+    .main-navigation ul ul:before {
+        display: none;
+    }
+
+    .fixed-header {
+        position: relative;
+    }
+
+    #nav-mobile-wrapper {
+        display: none;
+        width: 100%;
+    }
+
+    .widget-circle-mobile {
+        padding-bottom: 30px;
+    }
+
+    .ztl-widget-circle-wrapper, .ztl-widget-circle-content {
+        display: table-cell;
+        vertical-align: top;
+    }
+
+    .ztl-widget-circle-title {
+        word-spacing: normal;
+    }
+
+    .ztl-widget-number-title {
+        word-spacing: normal;
+    }
+
+    .ztl-widget-numbers-parallax,
+    .ztl-widget-testimonials-parallax,
+    .ztl-widget-staff-parallax{
+        background-position: center top !important;
+        background-attachment: scroll;
+    }
+
+    .site-footer {
+        text-align: center;
+    }
+
+    #ztl-social {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .ztl-widget-contact-container .address {
+        text-align: center;
+    }
+
+    .category-listing .title a {
+        font-size: 24px;
+    }
+
+    .ztl-widget-category-container .item {
+        margin: 0 0 40px 0;
+    }
+
+    .ztl-masonry .read-more {
+        text-align: center !important;
+    }
+
+    #head-frame {
+        height: auto !important;
+    }
+
+    .ztl-masonry .vc_grid-styled-select select {
+        background: none repeat scroll 0 0 transparent;
+        border: 1px solid #ccc !important;
+        border-radius: 0;
+        cursor: pointer;
+    }
+
+    .ztl-staff-item .item-left, .ztl-staff-item .item-right {
+        width: 100%;
+    }
+
+    .ztl-staff-item-v-2{
+        width:100%;
+    }
+
+    .ztl-staff-item .image img {
+        width: 100%;
+    }
+
+    .sidebar-footer {
+        text-align: left;
+    }
+
+    .main-navigation > div > ul > li > a {
+        text-align: left;
+    }
+
+    .ztl-widget-circle-description{
+        padding-bottom:4rem;
+    }
+    .ztl-courses-wrapper .item{
+        margin:8rem auto 2rem auto;
+    }
+
+     .ztl-action-content-box{
+        float:none !important;
+        width:auto !important;
+    }
+    .ztl-action-button{
+        max-width:100% !important;
+        display:block;
+        margin:2rem auto 0 auto;
+        float:none !important;
+    }
+    .ztl-action-button a{
+        margin:0px;
+    }
+    .ztl-action-element{
+        text-align:center;
+    }
+    .ztl-top-mobile{
+        margin-top:4rem;
+    }
+
+    .category-listing .item .title a,
+    .ztl-masonry h4{
+        font-size:30px;
+        font-weight:normal;
+    }
+
+    .ztl-divider-top-768{
+        margin-top:4rem;
+    }
+
+    .woocommerce-cart .wc-proceed-to-checkout a.checkout-button {
+        width:100%;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    #nav-mobile-wrapper {
+        display: inline-block !important;
+    }
+
+    .vc_responsive .vc_grid-filter {
+        display: block !important;
+    }
+
+    .vc_responsive .vc_grid-filter-select {
+        display: none !important;
+    }
+
+    .main-navigation .current-menu-item,
+    .main-navigation .current-menu-ancestor,
+    .main-navigation .current-menu-item a,
+    .main-navigation .current-menu-ancestor > a,
+    .main-navigation li:hover > a {
+        color: #fff !important;
+    }
+
+    .main-navigation ul ul li:hover > ul {
+        top: -6px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+    .woocommerce ul.products > li.product,
+    .woocommerce .upsells.products ul.products > li.product,
+    .woocommerce .related.products ul.products > li.product {
+        width: 100%;
+        margin: 0 0 6rem 0;
+
+    }
+
+}
+
+

@@ -1,0 +1,109 @@
+/*
+ Theme Name:   Kiddie Child
+ Theme URI:      http://www.zoutula.com/themes/kiddie
+ Description: Kiddie is a fully responsive WordPress theme best suitable for kindergarten, child care center, preschool or nursery, school or child related project.
+ Author:       Zoutula
+ Author URI:   http://zoutula.com
+ Template:     kiddie
+ Version:      2.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: kiddie-child
+Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-menu, editor-style, full-width-template, translation-ready
+*/
+
+.widget {margin:0}
+
+.site-header .menu-main-menu-container {
+  float: left;
+}
+
+/* float main menu searchbox right */
+header nav .search-form {
+  float: right;
+  margin-top: 30px;
+}
+
+header.site-header nav .search-form {
+  float: right;
+  margin-top: 30px;
+}
+
+header.fixed-header nav .search-form {
+  margin-top: 9px;
+}
+
+.container {
+  max-width: 84%;
+}
+
+.widget .container {
+  padding: 30px 25px;
+}
+
+span.wpcf7-not-valid-tip {
+  color: #fff;
+}
+
+div.wpcf7-validation-errors {
+  border: 2px solid #1483c5;
+}
+
+.ztl-staff-carousel .item {
+  display: block;
+}
+
+.ztl-staff-carousel .circle-portrait {
+  width: 210px;
+  height: 210px;
+}
+
+.ztl-staff-item .staff-excerpt {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  color: #fff;
+  background: rgba(0,0,0,0.5);
+}
+
+.ztl-widget-staff-container .staff-title {
+  word-spacing: 0;
+}
+
+.ztl-widget-staff-parallax {
+  background-image: url('/wp-content/uploads/2017/02/teacher.jpg');
+}
+
+.ztl-staff-item {
+  padding: 10px;
+  overflow: inherit;
+  min-height: 500px;
+}
+
+.ztl-courses-wrapper .item-course-description {
+  height: 258px;
+}
+
+.ztl-courses-wrapper .item {
+  width: 280px;
+  height: 530px;
+}
+
+@media (max-width: 320px) {
+  .ztl-courses-wrapper .item {
+    width: 216px;
+  }
+}
+
+.ztl-courses-wrapper .item-circle-top img {
+  max-height: 70%;
+}
+
+div.center{
+  text-align:center;
+}
+
+/* fix footer covering content, also commented out stickyFooter() in general.js */
+.site-footer {
+  position: relative;
+}
